@@ -10,6 +10,7 @@ public class Main {
         CD threeCheers = new CD("Three Cheers for Sweet Revenge", "My Chemical Romance", "CD", "punk", "ABC Co.");
         File helena = new File("Helena", 50, "audio");
         File cemeteryDrive = new File("Cemetery Drive", 60, "audio");
+        File dummy = new File("A Song", 600, "audio");
 
         // TODO: Call each CD and DVD method to verify that they work as expected.
 
@@ -17,6 +18,7 @@ public class Main {
         threeCheers.readData();
         threeCheers.writeData(helena);
         threeCheers.writeData(cemeteryDrive);
+        threeCheers.writeData(dummy);
         threeCheers.readData();
 
 
